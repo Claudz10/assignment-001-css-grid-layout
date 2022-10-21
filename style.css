@@ -16,23 +16,39 @@
 nav{
     background-color: #FE8515;
     grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 main{
     background-color: #8BF10A;
     grid-area: main;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     }
     .leftsidebar{
         background-color: #7FC242;
         grid-area: leftsidebar;
         border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .rightsidebar{
         background-color: #7FC242;
         grid-area: rightsidebar;
         border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     footer{
         background-color: #F57E20;
         grid-area: footer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
